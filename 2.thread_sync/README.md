@@ -7,9 +7,3 @@
 非排他锁包括Semaphore（Slim）和 ReaderWriterLock（Slim）。信号发送结构这种结构允许线程在接到一个或者多个其他线程的通知之前保持阻塞状态。信号发送结构包括ManualResetEvent（Slim）、AutoResetEvent、CountdownEvent和Barrier。前三者就是所谓的事件等待句柄（event waithandle）。
 
 一些结构在不使用锁的前提下也可以（巧妙地）处理特定的共享状态的同步操作，称为非阻塞同步结构（nonblocking synchronization construct）。它们包括Thread.MemoryBarrier、Thread.VolatileRead、Thread.VolatileWrite、volatile关键字和Interlocked类。
-
-
-
-ThreadStatic
-
-ThreadLocal<>
