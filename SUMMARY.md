@@ -6,43 +6,40 @@
 
   * [1.1 Thread 基础](1.thread_basic/1.thread.md)
   * [1.2 多线程模型](1.thread_basic/2.thread_model.md)
+  * [1.3 线程池](1.thread_basic/3.pool.md)
 
 * [2. 线程同步](2.thread_sync/README.md)
 
-  * [1.2 Locker 和 Monitor 锁](2.thread_sync/2.locker_monitor.md)
-
   * [2.1 原子操作 Interlocked](2.thread_sync/1.interlocked.md)
 
-  * [2.2 Mutex 类](2.thread_sync/2.mutex.md)
+  * [2.2 Locker 和 Monitor 排他锁](2.thread_sync/2.locker_monitor.md)
 
-  * [2.3 并发线程数限制](2.thread_sync/3.Semaphore_SemaphoreSlim.md)
+  * [2.3 进程互斥锁 Mutex（排他锁） ](2.thread_sync/3.mutex.md)
 
-  * [2.4 自动线程通知](2.thread_sync/4.AutoRestEvent.md)
+  * [2.4 非排他锁 Semaphore](2.thread_sync/4.Semaphore_SemaphoreSlim.md)
 
-  * [2.5 手动线程通知](2.thread_sync/5.ManualResetEvent.md)
+  * [2.5 自动线程通知 AutoRestEvent](2.thread_sync/5.AutoRestEvent.md)
 
-  * [2.6 线程完成数](2.thread_sync/6.CountDownEvent.md)
+  * [2.6 手动线程通知 ManualResetEvent](2.thread_sync/6.ManualResetEvent.md)
 
-    [2.7 并行协调](2.thread_sync/7.Barrier.md)
+  * [2.7 线程完成数 CountdownEvent ](2.thread_sync/7.CountDownEvent.md)
 
-    [2.8 读写锁](2.thread_sync/8.ReaderWriterLock.md)
+  * [2.8 并行协调 Barrier ](2.thread_sync/8.Barrier.md)
 
-    [2.9 自旋](2.thread_sync/9.SpinWait.md)
+  * [2.9 读写锁 ReaderWriterLock](2.thread_sync/9.ReaderWriterLock.md)
 
-* [3. 线程池](3.thread_pool/README.md)
+  * [2.10 自旋 SpinWait](2.thread_sync/10.SpinWait.md)
 
-  * [3.1 线程池](3.thread_pool/1.pool.md)
+* [3. Task](4.task/README.MD)
 
-* [4. Task](4.task/README.MD)
+  * [3.1 任务基础 1](3.task/1.task1.md)
 
-  * [4.1 任务基础 1](4.task/1.task1.md)
+  * [3.2 任务基础 2](3.task/2.task2.md)
 
-  * [4.2 任务基础 2](4.task/2.task2.md)
+  * [3.3 任务基础 3](3.task/3.task3.md)
 
-  * [4.3 任务基础 3](4.task/3.task3.md)
+  * [3.4 ValueTask](3.task/4.value_task.md)
 
-  * [4.4 学习总结](4.task/4.learn.md)
+  * [3.5 使用 Task 实现一个任务流](3.task/5.workflow.md)
 
-    [4.5 写一个简单的工作流](4.task/5.workflow.md)
-
-    [4.6 async 和 awiat](4.task/6.async_await.md)
+  * [3.6 async 和 awiat](3.task/6.async_await.md)

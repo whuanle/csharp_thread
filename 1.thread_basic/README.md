@@ -1,6 +1,3 @@
-# 1. 线程池
+# 1. 线程基础
 
-## SynchronizationContext
-
-https://docs.microsoft.com/en-us/archive/msdn-magazine/2011/february/msdn-magazine-parallel-computing-it-s-all-about-the-synchronizationcontext
-
+在本章中，将会介绍线程的基础使用方法、线程模型、和线程池，这些都是了解 C# 多线程的基础。
