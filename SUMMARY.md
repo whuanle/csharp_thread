@@ -9,7 +9,7 @@
   * [2.1 原子操作 Interlocked](2.thread_sync/1.interlocked.md)
   * [2.2 Locker 和 Monitor 排他锁](2.thread_sync/2.locker_monitor.md)
   * [2.3 进程互斥锁 Mutex（排他锁） ](2.thread_sync/3.mutex.md)
-  * [2.4 非排他锁 Semaphore](2.thread_sync/4.semaphore_semaphoreSlim.md)
+  * [2.4 非排他锁 Semaphore](2.thread_sync/4.semaphore.md)
   * [2.5 自动线程通知 AutoRestEvent](2.thread_sync/5.autorestevent.md)
   * [2.6 手动线程通知 ManualResetEvent](2.thread_sync/6.manualresetevent.md)
   * [2.7 线程完成数 CountdownEvent ](2.thread_sync/7.countdownevent.md)
