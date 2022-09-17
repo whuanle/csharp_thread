@@ -30,7 +30,7 @@
 
   * [2.10 自旋 SpinWait](2.thread_sync/10.SpinWait.md)
 
-* [3. Task](4.task/README.MD)
+* [3. Task](3.task/README.MD)
 
   * [3.1 任务基础 1](3.task/1.task1.md)
 
