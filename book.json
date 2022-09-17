@@ -52,6 +52,7 @@
       "js": [
         "prismjs/prism.js",
         "prismjs/components.js",
+        "prismjs/components/prism-csharp.min.js",
         "prismjs/components/prism-go.min.js",
         "prismjs/components/prism-yaml.min.js",
         "prismjs/components/prism-bash.min.js",
