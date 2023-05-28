@@ -13,6 +13,7 @@
     "prism",
     "hide-element",
     "scripts",
+    "icp",
     "-highlight",
     "-livereload"
   ],
@@ -73,6 +74,9 @@
       "files": [
         "./tj.js"
       ]
+    },
+    "icp": {
+      "number": "粤ICP备18051778号"
     }
   }
 }
