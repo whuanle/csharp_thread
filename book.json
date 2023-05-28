@@ -11,9 +11,10 @@
     "alerts",
     "popup",
     "prism",
+    "hide-element",
+    "scripts",
     "-highlight",
-    "-livereload",
-    "hide-element"
+    "-livereload"
   ],
   "title": "C# 多线程与异步 - 痴者工良",
   "author": "痴者工良",
@@ -60,11 +61,18 @@
       ]
     },
     "anchor-navigation-ex": {
-      "showLevel": false, 
-      "showGoTop": false 
+      "showLevel": false,
+      "showGoTop": false
     },
     "hide-element": {
-      "elements": [".gitbook-link"]
-  }
+      "elements": [
+        ".gitbook-link"
+      ]
+    },
+    "scripts": {
+      "files": [
+        "./tj.js"
+      ]
+    }
   }
 }
