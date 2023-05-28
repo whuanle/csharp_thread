@@ -13,7 +13,6 @@
     "prism",
     "hide-element",
     "head-append",
-    "icp",
     "-highlight",
     "-livereload"
   ],
